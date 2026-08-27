@@ -1,0 +1,25 @@
+# generated grids / intermediate data
+*.nc
+*_15s.nc
+*.cpt
+coverage.cpt
+profiles.csv
+diff_stats.csv
+regression_coefficients.csv
+metric_spread.csv
+
+# rendered figures (regenerate from the scripts)
+figures/
+*/compressed/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+
+*.tex
+*.pdf
+*.bib

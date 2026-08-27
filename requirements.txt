@@ -1,0 +1,10 @@
+# Python dependencies for the figure and analysis scripts.
+# System requirement: Generic Mapping Tools (GMT) >= 6.5, on PATH.
+pygmt>=0.10
+numpy>=1.24
+pandas>=2.0
+xarray>=2023.1
+scipy>=1.10
+matplotlib>=3.7      # schematic figures (fig_grid_lineage.py, fig_workflow.py)
+Pillow>=10.0         # tools/compress_figures.py
+statsmodels>=0.14    # optional: pipeline/diffstats.py regression block
